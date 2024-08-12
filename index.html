@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="Home">Home</a>
+                
+            </li>
+
+            <li>
+                <a href="About">About</a>
+               
+            </li>
+
+            <li>
+                <a href="Work">Work</a>
+               
+            </li>
+
+            <li> <a href="Resume">Resume</a>
+                </li>
+
+                <li><a href="Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="About">
+        <h2> About Me</h2>
+        <p> My name is oghenekaro boniface</p>
+
+    </section>
+
+    <section id="Work">
+        <h2>Work Experience</h2>
+        <p>I am a student at go my <code></code></p>
+
+    </section>
+
+    <section id="Resume">
+        <h2>My Resume</h2>
+        <p>Upload your resume here:</p>
+        <form action="/submit_resume"method="post" enctype="multipart/form-data"><input type="file" name="resume" accept=" .pdf,.doc,.docx"><input type="submit value=Upload Resume"></form>
+
+        
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Fill out the form below to get in touch</p>
+        <form action="/submit_contact method="post>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">email:</label><input type="email" id="email"name="email" required>
+            <br><br>
+            <label for="message">message
+            </label>
+            <br><br>
+            <textarea name="message" id="message" rows="4"></textarea>
+            <br><br>
+            <input type="submit" value="Send Message">
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
